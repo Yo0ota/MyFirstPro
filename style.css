@@ -1,0 +1,374 @@
+﻿*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body {
+    font-family: 'Open Sans',arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+
+
+.home {
+    text-align: center;
+    color: #fff;
+    background-size:cover;
+    height:750px;
+    animation-name:slide;
+    animation-duration:20s;
+    animation-direction:alternate;
+    animation-iteration-count:infinite;
+    background-size:100% 100%;
+}
+@keyframes slide{
+    0% {
+        background-image: url('images/work-2.jpg');
+    }
+    25% {
+        background-image: url('images/work-3.jpg');
+    }
+    50% {
+        background-image: url('images/work-4.jpg');
+    }
+    75% {
+        background-image: url('images/work-5.jpg');
+    }
+    100% {
+        background-image: url('images/work-6.jpg');
+    }
+}
+.home > .layer{
+    background-color:rgba(0,0,0,.7);
+    height:100%;
+}
+.home  p {
+    padding-top: 200px;
+    padding-bottom:20px;
+    font-size: 20px;
+}
+.home .header{
+    width:70%;
+    margin:auto;
+}
+.home h1 {
+    font-size: 50px;
+    line-height: 1.3em;
+}
+button {
+    margin-top: 50px;
+    padding: 15px 28px;
+    font-size: 13px;
+    background-color: #4caf50;
+    color:#fff;
+    border:none;
+    border-radius:4px;
+}
+.home button:hover{
+    background-color:#fff;
+    color:black;
+}
+.items {
+    padding: 50px 0px;
+    overflow: auto;
+    font-size: 16px;
+}
+.items > .container{
+    width:80%;
+    margin:auto;
+}
+.item {
+    width: 33.3333%;
+    float: left;
+    padding: 25px;
+}
+.item h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+ .items  p {
+    color: #888;
+    padding: 20px 0px;
+}
+.services {
+    background-color: #f8f8f8;
+    padding:50px 0px;
+    overflow:auto;
+}
+.services > h2 , .services > p{
+    text-align:center;
+    margin-bottom:20px;
+}
+.services > p {
+    color: #888;
+}
+.services .container {
+    width: 80%;
+    margin: auto;
+}
+.services .service{
+    width:33.333%;
+    float:left;
+    padding:20px
+}
+.service .layer{
+    background-color:#fff;
+    padding-bottom:20px;
+}
+.service .img {
+    overflow: hidden;
+}
+.service img{
+    width:100%;
+    transition:all 1s;
+}
+.service img:hover{
+    transform:scale(1.1,1.1);
+}.service p {
+    color: #888;
+    padding: 20px;
+}
+.service h3 {
+    font-size: 19px;
+    padding: 20px;
+}
+.service a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.service a:hover {
+    color: #4caf50;
+}
+
+.secret .container{
+    width:80%;
+    margin:auto;
+    overflow:auto;
+    margin-top:80px;
+}
+.secret .content , .secret .img{
+    width:50%;
+    float:left;
+    padding-bottom:50px;
+}
+.secret button:hover {
+    background-color: black;
+    color: #fff;
+}
+.secret .content {
+    padding-top: 80px;
+}
+.secret p {
+    color: #888;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.secret h4 {
+    color: #888;
+    padding-bottom:20px;
+    font-weight: 400;
+}
+.secret img{
+    width:100%;
+}
+.members {
+    padding: 50px 0px;
+    background-color:#f8f8f8;
+    overflow:auto;
+}
+.members .container{
+    width:85%;
+    margin:auto;
+}
+.members .member{
+    width:33.33333%;
+    float:left;
+    padding:20px;
+}
+.member p{
+    background-color:#fff;
+    padding:20px;
+    color:#888;
+}
+.member h3 , .member h4{
+    padding-top: 10px;
+    padding-left:25px;
+    color: #686868;
+}
+.member h4 {
+    opacity: .7;
+}
+.members .layer{
+    width: 0px;
+    height: 0px;
+    margin-left:30px;
+    border-top: solid 15px white;
+    border-right: solid 15px transparent;
+    border-bottom: solid 15px transparent;
+    border-left: solid 15px transparent;
+}
+
+.counter > .container {
+    width: 80%;
+    margin:auto;
+    overflow: auto;
+    padding:60px;
+}
+.counter .child {
+    width:25%;
+    float: left;
+    padding-left:80px;
+}
+
+.child h3 {
+    font-size: 52px;
+    font-weight: 400;
+}
+.child p {
+    font-size: 20px;
+    color: rgba(0,0,0,.55);
+}
+.additional {
+    background-image: url('images/download.jpg');
+    background-size:cover;
+    color:white;
+    text-align:center;
+    padding:50px 0px;
+}
+.additional > p {
+    color: #fff;
+    width: 50%;
+    margin:auto;
+    padding-top:50px;
+}
+.additional >button:hover{
+    background-color:#fff;
+    color:black;
+}
+.logo {
+    background-color: #f8f8f8;
+    padding:50px;
+}
+.logo> .container{
+    width:90%;
+    margin:auto;
+}
+.logo img{
+    padding-left:30px;
+}
+.contact {
+    background-color: #4caf50;
+    color:#fff;
+    overflow:auto;
+    padding-bottom:50px;
+}
+.contact .container{
+    width:80%;
+    margin:auto;
+}
+.contact .content{
+    float:left;
+    padding-top:50px;
+}
+.contact .btn {
+    float: right;
+
+}
+.btn button {
+    padding: 25px;
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn button:hover {
+    background-color: black;
+    color: white;
+}
+.about {
+    background-image: url('images/contact-details-map.png');
+    color: #58606b;
+    background: #1f2021;
+    padding: 50px 0px;
+}
+.about ul {
+    list-style: none;
+}
+.about h3{
+    padding-bottom:20px;
+    color:#fff;
+}
+.about .container{
+    width:80%;
+    margin:auto;
+    overflow:auto;
+}
+.about .field{
+    width:25%;
+    float:left;
+}
+.about p {
+    font-size: 14px;
+}
+.about a {
+    color: #58606b;
+    text-decoration: none;
+}
+.about a:hover {
+    color: #4274b7;
+}
+.footer {
+    background: #1b1b1b;
+    color: #797979;
+    padding:30px 0px;
+}
+.footer .container{
+    width:80%;
+    margin:auto;
+}
+
+@media(max-width:992px) and (min-width:774px) {
+    .members .member {
+        width: 50%;
+    }
+    .counter .child {
+        width: 50%;
+    }
+    .about .field {
+        width: 50%;
+    }
+}
+
+@media(max-width:774px) {
+    .item {
+        width: 100%;
+    }
+    .services .service {
+        width: 100%;
+    }
+    .secret .content, .secret .img {
+        width: 100%;
+    }
+    .members .member {
+        width: 100%;
+    }
+    .counter .child {
+        width: 100%;
+    }
+    .contact .content , .contact .btn {
+        width:100%;
+    }
+    .contact {
+        text-align:center;
+    }
+    .about .field {
+        width: 100%;
+    }
+    }
